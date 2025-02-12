@@ -1,3 +1,5 @@
 .venv
 .env
 .idea
+Lavalink.jar
+application.yml
