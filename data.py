@@ -1,3 +1,5 @@
+import discord
+
 PREFIX: str = "$"
 GAME_MODE: list = []
 EN_RU_DICTIONARY = {"A": "А", "B": "Б", "C": "К", "D": "Д", "E": "Е", "F": "Ф", "G": "Г",
@@ -30,5 +32,10 @@ RUS_LETTERS = ("Й", 'Ц',  'У', 'К', 'Е', 'Н', 'Г', 'Ш', 'Щ', 'З', 'Х'
                "й", 'ц', 'у', 'к', 'е', 'н', 'г', 'ш', 'щ', 'з', 'х', 'ъ', 'ф', 'ы', 'в',
                "а", 'п', 'р', 'о', 'л', 'д', 'ж', 'э', 'я', 'ч', "с", 'м', 'и', "т", 'ь', 'б', 'ю'
                )
+
+SOUND_CHANNEL_ID: int = 1277522924638699582
+SOUND_CACHE_PATH: str = "D:/apps/GeniusWoman/cache/sound_cache"
+FFMPEG_PATH: str = "D:/apps/GeniusWoman/ffmpeg/bin/ffmpeg.exe"
+ROLES: list = [("Игровой режим", discord.Permissions.none(), discord.Colour.red().value)]
 
 
